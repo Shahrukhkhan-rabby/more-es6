@@ -17,8 +17,8 @@ console.log(biggest);
 const myNotes = `I am mojnu of ${hubby}. I dont have a ${phone}.`
 console.log(myNotes);
 // 4. arrow function
-const square = x => x * x;
-console.log(square(8));
 function square(x) {
-    return x * x;
+  return x * x;
 }
+  const square = (x) => x * x;
+  console.log(square());
