@@ -26,7 +26,7 @@ const num = 10;
 const information = tag`The number is ${num}.`;
 
 // Nesting Templates 
-const nested = `Result: ${`The sum is ${a + b}`}`;
+const nested = `Result: The sum is ${a + b}`;
 console.log(nested);
 
 
@@ -75,7 +75,7 @@ console.log(multipliedByFive);
 
 // 6.[challenging] numbers of array.get odd numbers by using filter with arrow function
 const numbers1 = [1, 2, 3, 4, 5, 6, 7, 8, 9];
-const oddNumbers = numbers.filter(num => num % 2 !== 0);
+const oddNumbers = numbers1.filter(num => num % 2 !== 0);
 console.log(oddNumbers);
 
 // 7.[challenging] array of objects(e.g.products).use find to get the object with price 5000.
